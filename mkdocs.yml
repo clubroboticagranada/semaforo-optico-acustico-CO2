@@ -1,16 +1,16 @@
-# 1. Información del Taller
-site_name: Taller de X # TODO:
-site_description: La Jaqueria - Taller de X # TODO:
-site_author: Federico Coca
-site_url: https://fgcoca.github.io/Simulacion-de-circuitos-electronicos/
+# 1. Información sobre los contenidos
+site_name: Semáforo óptico-acústico de CO2
+site_description: Semáforo óptico y acústico para indicar los niveles de CO2 presentes en un aula o espacio de trabajo para saber cuando debemos ventilar el recinto.
+site_author: /ccc/mmm/Federico Coca
+site_url: https://clubroboticagranada.github.io/semaforo-optico-acustico-CO2/
 
 # 2. Repositorio
-repo_name: fgcoca/Simulacion-de-circuitos-electronicos
-repo_url: https://github.com/fgcoca/Simulacion-de-circuitos-electronicos
+repo_name: clubroboticagranada/semaforo-optico-acustico-CO2
+repo_url: https://github.com/clubroboticagranada/semaforo-optico-acustico-CO2
 edit_uri: ""
 
 # 3. Copyright
-copyright: Copyright &copy; 2020 - 2025 Federico Coca
+copyright: Copyright &copy; 2020 - 2025 Club Robótica Granada
 
 # 4. RRSS
 # extra:
@@ -23,9 +23,11 @@ copyright: Copyright &copy; 2020 - 2025 Federico Coca
 # 5. Navegación
 nav:
   - Introducción: index.md # TODO:
-#  - Autor / Autores: about.md # TODO:
+  - Versión modular: modular/modular.md
+  - Versión Easy Plug: ep/ep.md
+  - Versión Node MCU: mcu/mcu.md
   - Miscelanea:
-    - Autor: Miscelanea/about.md 
+    - Autores: Miscelanea/about.md 
     - Licencias: Miscelanea/lic.md
     - Webgrafia/Bibliografía: Miscelanea/webgrafia.md
     - Software utilizado: Miscelanea/soft.md

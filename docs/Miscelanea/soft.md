@@ -2,11 +2,11 @@
 
 * Dibujo 3D [FreeCAD 0.18 / FreeCAD 0.19](https://www.freecadweb.org/)
   
-* Sistema operativo: [Ubuntu 18.04.4 LTS (Bionic Beaver)](https://releases.ubuntu.com/bionic/)
+* Sistema operativo: [Ubuntu 20.04 LTS (Focal Fosa)](https://releases.ubuntu.com/bionic/)
   
-* Paquete ofimático de referencia: [LibreOffice 6.4](https://es.libreoffice.org/)
+* Paquete ofimático de referencia: [LibreOffice 7.0](https://es.libreoffice.org/)
   
-* Libreria Material para MkDocs
+* Librería Material para MkDocs
   
 * [Visual Studio Code](https://code.visualstudio.com/)
   

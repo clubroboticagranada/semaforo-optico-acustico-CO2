@@ -93,7 +93,7 @@ En la entrada Dióxido de carbono del Instituto para la Salud Geoambiental podem
 
 >> Lo ideal es que el cociente entre exterior e interior sea lo más cercano a 1 posible.
 
-En el artículo de la International Journal of Emergency Medicine dado en la webgrafía se pueden consultar mas datos relativos al tema del CO2.
+En el artículo de la [International Journal of Emergency Medicine](https://intjem.biomedcentral.com/articles/10.1186/s12245-017-0142-y) dado en la webgrafía se pueden consultar mas datos relativos al tema del CO2 y en el de Centro Canadiense de Seguridad y Salud Ocupacional [(CCSSO)](http://www.ccsso.ca/oshanswers/chemicals/chem_profiles/carbon_dioxide/health_cd.html) tenemos respuestas a diversas cuestiones sobre el CO2.
 
 ## Riesgos de transmisión de covid-19 en distintas situaciones
 

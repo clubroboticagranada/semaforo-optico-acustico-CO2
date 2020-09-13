@@ -105,9 +105,9 @@ Reproducimos aquí la gráfica en formato original traducida para que nos sirva 
 
 | Imagen 1 |
 |:-:|
-| ![Gráfica de riesgos de transmisión](../docs/img/intro/Fig-3.png) |
+| ![Gráfica de riesgos de transmisión](../img/intro/i1.png) |
 | Gráfica de riesgos de transmisión |
 
 </center>
 
-El archivo fuente en formato svg está disponible para descargar [aquí](img/intro/Fig-3.svg) y en formato pdf [aquí](img/intro/Fig-3.pdf)
+El archivo fuente en formato svg está disponible para descargar [aquí](img/intro/i1.svg) y en formato pdf [aquí](img/intro/i1.pdf)

@@ -105,10 +105,9 @@ Reproducimos aquí la gráfica en formato original traducida para que nos sirva 
 
 | Imagen 1 |
 |:-:|
-| ![Otra forma de adjuntar cursores](../../img/Mas-conceptos/i5.png) |
+| ![Gráfica de riesgos de transmisión](../../i1.png) |
 | Gráfica de riesgos de transmisión |
 
 </center>
 
 El archivo fuente en formato svg está disponible para descargar [aquí](img/indice/i1.svg) y en formato pdf [aquí](img/indice/i1.pdf)
-![Gráfica de riesgos de transmisión](../../img/indice/i1.png)

@@ -22,7 +22,8 @@ copyright: Copyright &copy; 2020 - 2025 Club Robótica Granada
 
 # 5. Navegación
 nav:
-  - Introducción: index.md # TODO:
+  - Introducción: index.md 
+  - Algunos conceptos sobre el CO2: sobre-co2/co2.md
   - Versión modular: modular/modular.md
   - Versión Easy Plug: ep/ep.md
   - Versión Node MCU: mcu/mcu.md

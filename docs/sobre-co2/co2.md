@@ -80,4 +80,4 @@ Reproducimos aquí la gráfica en formato original traducida para que nos sirva 
 
 </center>
 
-El archivo fuente en formato svg está disponible para descargar [aquí](../img/sobre-co2/i1.svg) y en formato pdf [aquí](img/sobre-co2/i1.pdf)
+El archivo fuente en formato svg está disponible para descargar [aquí](../img/sobre-co2/i1.svg) y en formato pdf [aquí](../img/sobre-co2/i1.pdf)

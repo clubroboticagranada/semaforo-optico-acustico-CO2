@@ -105,7 +105,7 @@ Reproducimos aquí la gráfica en formato original traducida para que nos sirva 
 
 | Imagen 1 |
 |:-:|
-| ![Gráfica de riesgos de transmisión](../../img/intro/i1.png) |
+| ![Gráfica de riesgos de transmisión](img/intro/i1.png) |
 | Gráfica de riesgos de transmisión |
 
 </center>

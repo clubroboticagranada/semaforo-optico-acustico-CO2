@@ -105,7 +105,7 @@ Reproducimos aquí la gráfica en formato original traducida para que nos sirva 
 
 | Imagen 1 |
 |:-:|
-|  |
+| ![Otra forma de adjuntar cursores](../../img/Mas-conceptos/i5.png) |
 | Gráfica de riesgos de transmisión |
 
 </center>

@@ -81,3 +81,29 @@ Reproducimos aquí la gráfica en formato original traducida para que nos sirva 
 </center>
 
 El archivo fuente en formato svg está disponible para descargar [aquí](../img/sobre-co2/i1.svg) y en formato pdf [aquí](../img/sobre-co2/i1.pdf)
+
+## Unidades de medida del CO2
+
+Las formas más habituales de indicar la concentración de un gas como el CO2 son las ppm (partes por millón) y los µg/m³ (microgramos por metro cúbico).  Las ppm se suelen utilizar cuando se trata de un gas, y en este caso se sobreentiende que se expresa en volumen. Muchas veces se puede encontrar escrito como ppmv, donde la “v” final indica precisamente que la concentración es en volumen. 
+
+De esta forma, 1 ppm es unidad de volumen de contaminante en un millón de unidades de volumen de aire. Para concentraciones altas de CO2 se usa el porcentaje volumétrico (unidades de volumen de CO2 en 100 unidades de volumen de aire), es decir que 10.000 ppm = 1%
+
+Otras dos formas habituales de expresar la concentración de CO2 es en µg/m³ (microgramos por metro cúbico). Para convertir las ppm en µg/m³ tenemos que tener en cuenta que dicha conversión depende del tipo de gas, y de una presión y una temperatura que tomemos como referencia.
+
+Para el CO2 (con peso molecular 44 g/mol), y tomando como referencia P = 1 atm y T = 298,16 K (25 ºC), tenemos (R = 0,08205746 atm·L/mol·K):
+
+<center>
+
+$\dfrac{10^{6}\cdot 44\hspace{0.1cm} g/mol\cdot 1\hspace{0.1cm}atm\cdot 10^{-6}}{0,08205746\cdot 298,16\hspace{0.1cm}K}=1,798\hspace{0.1cm}\mu g\hspace{0.1cm}\approx\hspace{0.1cm}1,8\hspace{0.1cm}\mu g$
+
+</center>
+
+Luego:
+
+<center>
+
+$\boxed{1\hspace{0.1cm}ppm=1,8\hspace{0.1cm}\mu g/m^{3}\hspace{1cm}(CO_{2}\hspace{0.2cm}@\hspace{0.2cm}1\hspace{0.2cm}atm.\hspace{0.2cm} 25\hspace{0.2cm}ºC)}$
+
+</center>
+
+Que será la relación a usar para convertir entre unidades de CO2

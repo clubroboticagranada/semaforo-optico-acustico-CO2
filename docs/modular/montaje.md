@@ -166,6 +166,26 @@ Los elementos que vamos a montar son los que vemos en la imagen 12, es decir, el
 
 </center>
 
+Antes de colocar el sensor BMP280 en su lugar, y con el fin de pasar un cable mas por el tubo, he recurrido al *ñapometro* para solucionar un pequeño detalle a tener en cuenta con el BMP280, la dirección del bus cambia según el estado lógico del pin SDO, y si se deja desconectado la dirección queda indeterminada, por lo que puede parecer que no funciona correctamente. Las direcciones físicas de este dispositivo I2C son:
+
+<center>
+
+`SDO=GND -> I2C Address (0x76)`
+
+`SDO=3.3V -> I2C Address (0x77)`
+
+</center>
+
+En la librería desarrollada por Adafruit, el bus I2C utiliza por defecto la dirección (0x77) por lo que debemos conectar el pin SDO a Vcc. En la imagen siguiente se puede apreciar un detalle de la ñapa realizada en este caso sobre la propia PCB con un trocito de hilo rígido.
+
+<center>
+
+|Ñapa en el BMP280 |
+|:-:|
+| ![Detalle de la ñapa realizada](../img/modular/montaje/nhapa.png) |
+| Detalle de la ñapa realizada |
+
+</center>
 
 Vamos a necesitar también 3 separadores de 10mm de longitud, 4 tornillos M3x10mm, 3 tornillos M3x20mm y 7 tuercas M3. Sujetamos cada sensor en la posición que se observa en la imagen 13 utilizando los separadores y los tornillos de 20mm para el amplificador, el micrófono y el sensor de CO2 evitando así que queden pegados a las paredes de la caja.
 

@@ -166,7 +166,7 @@ Los elementos que vamos a montar son los que vemos en la imagen 12, es decir, el
 
 </center>
 
-Antes de colocar el sensor BMP280 en su lugar, y con el fin de pasar un cable mas por el tubo, he recurrido al *ñapometro* para solucionar un pequeño detalle a tener en cuenta con el BMP280, la dirección del bus cambia según el estado lógico del pin SDO, y si se deja desconectado la dirección queda indeterminada, por lo que puede parecer que no funciona correctamente. Las direcciones físicas de este dispositivo I2C son:
+El sensor barométrico que vamos a usar es de 5V por lo que vamos a realizar una tarea que nos permita no tener que modificar la librería original. Antes de colocar el sensor BMP280 en su lugar, y con el fin de pasar un cable mas por el tubo y no cambiar la librería, he recurrido al *ñapometro* para solucionar un pequeño detalle a tener en cuenta con el BMP280, la dirección del bus cambia según el estado lógico del pin SDO, y si se deja desconectado la dirección queda indeterminada, por lo que puede parecer que no funciona correctamente. Las direcciones físicas de este dispositivo I2C son:
 
 <center>
 

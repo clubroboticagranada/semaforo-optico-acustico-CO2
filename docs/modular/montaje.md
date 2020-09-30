@@ -166,27 +166,6 @@ Los elementos que vamos a montar son los que vemos en la imagen 12, es decir, el
 
 </center>
 
-El sensor barométrico que vamos a usar es de 5V por lo que vamos a realizar una tarea que nos permita no tener que modificar la librería original. Antes de colocar el sensor BMP280 en su lugar, y con el fin de pasar un cable mas por el tubo y no cambiar la librería, he recurrido al *ñapometro* para solucionar un pequeño detalle a tener en cuenta con el BMP280, la dirección del bus cambia según el estado lógico del pin SDO, y si se deja desconectado la dirección queda indeterminada, por lo que puede parecer que no funciona correctamente. Las direcciones físicas de este dispositivo I2C son:
-
-<center>
-
-`SDO=GND -> I2C Address (0x76)`
-
-`SDO=3.3V -> I2C Address (0x77)`
-
-</center>
-
-En la librería desarrollada por Adafruit, el bus I2C utiliza por defecto la dirección (0x77) por lo que debemos conectar el pin SDO a Vcc. En la imagen siguiente se puede apreciar un detalle de la ñapa realizada en este caso sobre la propia PCB con un trocito de hilo rígido.
-
-<center>
-
-|Ñapa en el BMP280 |
-|:-:|
-| ![Detalle de la ñapa realizada](../img/modular/montaje/nhapa.png) |
-| Detalle de la ñapa realizada |
-
-</center>
-
 Vamos a necesitar también 3 separadores de 10mm de longitud, 4 tornillos M3x10mm, 3 tornillos M3x20mm y 7 tuercas M3. Sujetamos cada sensor en la posición que se observa en la imagen 13 utilizando los separadores y los tornillos de 20mm para el amplificador, el micrófono y el sensor de CO2 evitando así que queden pegados a las paredes de la caja.
 
 <center>
@@ -225,6 +204,57 @@ El etiquetado de los cables queda, en mi caso, de la siguiente forma:
 </center>
 
 Reservamos el conjunto montado hasta el momento.
+
+### Ñapa número 1
+
+El sensor barométrico que vamos a usar es de 5V por lo que vamos a realizar una tarea que nos permita no tener que modificar la librería original. Antes de colocar el sensor BMP280 en su lugar, y con el fin de pasar un cable mas por el tubo y no cambiar la librería, he recurrido al *ñapometro* para solucionar un pequeño detalle a tener en cuenta con el BMP280, la dirección del bus cambia según el estado lógico del pin SDO, y si se deja desconectado la dirección queda indeterminada, por lo que puede parecer que no funciona correctamente. Las direcciones físicas de este dispositivo I2C son:
+
+<center>
+
+`SDO=GND -> I2C Address (0x76)`
+
+`SDO=3.3V -> I2C Address (0x77)`
+
+</center>
+
+En la librería desarrollada por Adafruit, el bus I2C utiliza por defecto la dirección (0x77) por lo que debemos conectar el pin SDO a Vcc. En la imagen siguiente se puede apreciar un detalle de la ñapa realizada en este caso sobre la propia PCB con un trocito de hilo rígido.
+
+<center>
+
+|Ñapa en el BMP280 |
+|:-:|
+| ![Detalle de la ñapa realizada](../img/modular/montaje/nhapa.png) |
+| Detalle de la ñapa realizada |
+
+</center>
+
+### Ñapa número 2
+
+Este otro arreglo lo vamos a realizar sobre el sensor de CO2 CCS811 también antes de colocarlo en su lugar. Esta vez el detalle lo encontramos en el [datasheet del CCS811](https://cdn.sparkfun.com/assets/learn_tutorials/1/4/3/CCS811_Datasheet-DS000459.pdf) en el que se puede leer, en la descripción del pin 2 de la figura 4 esto:
+
+<center>
+
+_nRESET is an active low input and is pulled up to VDD by default. nRESET is_  
+_optional but external 4.7KΩ pull-up and/or decoupling of the nRESET pin may be_  
+_necessary to avoid erroneous noise-induced resets._
+
+nRESET es una entrada activa a nivel bajo y se conecta a VDD por defecto.  
+nRESET es opcional, pero puede ser necesario una resistencia pull-up externa  
+de 4.7KΩ para evitar reinicios erróneos inducidos por ruido.
+
+</center>
+
+En la imagen siguiente tenemos el aspecto de esta ñapa.
+
+<center>
+
+|Ñapa en el CCS811 |
+|:-:|
+| ![Detalle de la ñapa realizada](../img/modular/montaje/nhapa2.png) |
+| Detalle de la ñapa realizada |
+
+</center>
+
 
 ## Paso 6: Colores y LEDs
 

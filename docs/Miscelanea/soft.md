@@ -19,3 +19,7 @@
 * Dibujo 2D vectorial [Inkscape 1.0](https://inkscape.org/es/)
 
 * Retoque de imágenes [GIMP 2.10.14](https://www.gimp.org/)
+
+* Software online de programación por bloques creado por Juanjo López [ArduinoBlocks](http://www.arduinoblocks.com/) junto con el programa [connector](http://www.arduinoblocks.com/web/site/abconnector) que nos permitirá grabar los programas en la placa.
+
+* [Libros y documentación](http://www.arduinoblocks.com/web/site/doc) sobre ArduinoBlocks

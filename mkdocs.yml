@@ -30,6 +30,7 @@ nav:
     - Pruebas individuales sensores: modular/pruebas.md
   - Versión Easy Plug: ep/ep.md
   - Versión Node MCU: mcu/mcu.md
+  - 3D: 3D/3d.md
   - Miscelanea:
     - Autores: Miscelanea/about.md 
     - Licencias: Miscelanea/lic.md

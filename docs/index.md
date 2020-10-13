@@ -26,6 +26,18 @@ Encima del color verde va el amarillo y encima de este el rojo y en cada cubo se
 
 Todas las cajas con accesibles por su parte posterior con tan solo extraer la tapa por lo que resultará bastante sencillo de montar.
 
-Opcionalmente la versiones modular y easy plug se dotarán de conexión WiFi. Esta irá conectada directamente a los pines Tx y RX con cruzamiento en el caso de la versión modular. De esta forma no hay que reprogramar la velocidad a 9600 y lo único a tener en cuenta es que para grabar nuestro firmware debemos desconectar los cables Tx y Rx para no entrar en conflictos. Esto facilita bastante las cosas a quien quiera replicarlo y no esté muy avezado en el tema y, como la placa una vez montado el sistema, solamente hay que programarla una vez pues tampoco es un problema muy considerable. No obstante en este sitio se puede [consultar]() como realizar esta tarea.
+Opcionalmente se puede dotar de conexión WiFi. Esta podrá ir conectada directamente a los pines Tx y RX con cruzamiento en el caso de la versión modular. De esta forma no hay que reprogramar la velocidad a 9600 y lo único a tener en cuenta es que para grabar nuestro firmware debemos desconectar los cables Tx y Rx para no entrar en conflictos, o la alimentación del módulo. Esto facilita bastante las cosas a quien quiera replicarlo y no esté muy avezado en el tema y, como la placa una vez montado el sistema, solamente hay que programarla una vez pues tampoco es un problema muy considerable.
 
 Con la conexión WiFi podemos subir los datos a la nube, por ejemplo al broker ThingSpeak que nos ofrece canales gratuitos para subir un dato cada 16 segundos.
+
+***
+
+<center>
+
+**NOTA MUY IMPORTANTE**
+
+</center>
+
+Al firmware que se describe para esta versión no es posible añadirle conectividad WiFi porque la placa no dispone de memoria suficiente para ello. Esto es debido a las características de los modelos UNO con 2kB de RAM que resulta insuficiente para albergar todas las variables necesarias para, además de la funcionalidad del semáforo, subir datos a la nube. Si se quieren utilizar ambas funcionalidades será necesario recurrir a un modelo mega de Arduino, pero esto ya no es objeto de este proyecto, aunque si es perfectamente desarrollable a partir de la información que podemos obtener en este sitio. Cuando se desarrolle la versión easy plug se dará forma a una versión con mega.
+
+***

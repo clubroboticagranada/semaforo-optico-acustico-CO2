@@ -28,7 +28,7 @@ A continuación tenemos una tabla a modo de lista de materiales gráfica con enl
 | 1 | Cable tipo dupont H-H de 40 cm y 3 pines| ![Cable para color verde](../img/modular/ic3.png) |
 | 1 | Cable tipo dupont H-H de 45 cm y 3 pines| ![Cable para color amarillo](../img/modular/ic3.png) |
 | 1 | Cable tipo dupont H-H de 50 cm y 3 pines| ![Cable para color rojo](../img/modular/ic3.png) |
-| 1 | **OPCIONAL** Shield WiFi ESP01 | ![KS0385-Shield WiFi ESP01](../img/modular/i11.png) |
-| 1 | **OPCIONAL** Módulo ESP8266 WiFi ESP01 | ![Módulo ESP8266 WiFi ESP01](../img/modular/i12.png) |
+| 1 | **OPCIONAL** Shield WiFi ESP01 <br> [Ver nota final Introducción](../index.md) </br> | ![KS0385-Shield WiFi ESP01](../img/modular/i11.png) |
+| 1 | **OPCIONAL** Módulo ESP8266 WiFi ESP01  <br> [Ver nota final Introducción](../index.md) </br> | ![Módulo ESP8266 WiFi ESP01](../img/modular/i12.png) |
 
 </center>

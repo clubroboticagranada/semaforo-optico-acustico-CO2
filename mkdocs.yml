@@ -25,7 +25,7 @@ nav:
   - Introducción: index.md 
   - Algunos conceptos sobre CO2 y VOC : sobre-co2/co2.md
   - Versión modular: 
-    - Introducción: modular/modular.md
+    - Introducción a la versión modular: modular/modular.md
     - Montaje y conexionado: modular/montaje.md
     - Pruebas individuales sensores: modular/pruebas.md
   - Versión Easy Plug: ep/ep.md

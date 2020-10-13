@@ -28,6 +28,7 @@ nav:
     - Introducción a la versión modular: modular/modular.md
     - Montaje y conexionado: modular/montaje.md
     - Pruebas individuales sensores: modular/pruebas.md
+    - Programa completo: modular/firmware-modular.md
   - Versión Easy Plug: ep/ep.md
   - Versión Node MCU: mcu/mcu.md
   - 3D: 3D/3d.md

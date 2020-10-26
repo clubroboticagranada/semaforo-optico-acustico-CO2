@@ -26,6 +26,7 @@ nav:
   - Algunos conceptos sobre CO2 y VOC : sobre-co2/co2.md
   - Versión modular: 
     - Introducción a la versión modular: modular/modular.md
+    - Comparativa eCO2 versus CO2: modular/comparativa.md
     - Montaje y conexionado: modular/montaje.md
     - Pruebas individuales sensores: modular/pruebas.md
     - Programa completo: modular/firmware-modular.md

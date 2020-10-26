@@ -17,3 +17,6 @@
 
 Artículo del Centro Canadiense de Seguridad y Salud Ocupacional (CCSSO) sobre [Dióxido de Carbono - Efectos en la Salud](http://www.ccsso.ca/oshanswers/chemicals/chem_profiles/carbon_dioxide/health_cd.html)
 
+* Muy recomendable para otros muchos temas el [Canal Youtube de Andreas Spiess](https://www.youtube.com/c/AndreasSpiess/about)
+
+* Página web [SENSORSIOT/](https://www.sensorsiot.org/) de Andreas Spiess

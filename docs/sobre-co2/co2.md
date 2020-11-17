@@ -88,17 +88,31 @@ El archivo fuente en formato svg está disponible para descargar [aquí](../img/
 
 ### Unidades de medida del CO2
 
-Las formas más habituales de indicar la concentración de un gas como el CO2 son las ppm (partes por millón) y los µg/m³ (microgramos por metro cúbico).  Las ppm se suelen utilizar cuando se trata de un gas, y en este caso se sobreentiende que se expresa en volumen. Muchas veces se puede encontrar escrito como ppmv, donde la “v” final indica precisamente que la concentración es en volumen. 
+Las formas más habituales de indicar la concentración de un contaminante atmosférico son las ppb (partes por billón) y las ppm (partes por millón), los µg/m³ (microgramos por metro cúbico) y los mg/m³ (miligramos por metro cúbico).  
 
-De esta forma, 1 ppm es unidad de volumen de contaminante en un millón de unidades de volumen de aire. Para concentraciones altas de CO2 se usa el porcentaje volumétrico (unidades de volumen de CO2 en 100 unidades de volumen de aire), es decir que 10.000 ppm = 1%
+Las ppb y las ppm se suelen utilizar cuando se trata de un gas, y en este caso se sobreentiende que se expresa en volumen. Muchas veces se puede encontrar escrito como ppbv o ppmv, donde la “v” final indica precisamente que la concentración es en volumen.
 
-Otras dos formas habituales de expresar la concentración de CO2 es en µg/m³ (microgramos por metro cúbico). Para convertir las ppm en µg/m³ tenemos que tener en cuenta que dicha conversión depende del tipo de gas, y de una presión y una temperatura que tomemos como referencia.
+De esta forma, 1 ppm es unidad de volumen de contaminante en un millón de unidades de volumen de aire. Para concentraciones altas de CO2 se usa el porcentaje volumétrico (unidades de volumen de CO2 en 100 unidades de volumen de aire), es decir que 10.000 ppm = 1%.
 
-Para el CO2 (con peso molecular 44 g/mol), y tomando como referencia P = 1 atm y T = 298,16 K (25 ºC), tenemos (R = 0,08205746 atm·L/mol·K):
+Es importante tener en cuenta que este es el billón de estas ppb es un billón anglosajón, esto es, 1000 millones de volúmenes ($10^{9}$) En Europa un billón es 1 millón de millones, $10^{12}$. Por lo que la equivalencia es: **1ppm = 1000ppb**
+
+Otras dos formas habituales de expresar la concentración de los contaminantes atmosféricos son los µg/m³ (microgramos por metro cúbico) y los mg/m³ (miligramos por metro cúbico). La equivalencia es similar a las de ppm y ppb:
 
 <center>
 
-$\dfrac{10^{6}\cdot 44\hspace{0.1cm} g/mol\cdot 1\hspace{0.1cm}atm\cdot 10^{-6}}{0,08205746\cdot 298,16\hspace{0.1cm}K}=1,798\hspace{0.1cm}\mu g\hspace{0.1cm}\approx\hspace{0.1cm}1,8\hspace{0.1cm}\mu g$
+1 mg/m³ = 1000 µg/m³
+
+</center>
+
+Para convertir las ppb en µg/m³ tenemos que tener en cuenta que dicha conversión depende del tipo de contaminante, y de una presión y una temperatura que tomemos como referencia. Para ver esto, tomemos una concentración de 1 ppb de un contaminante M. Esto implica que tenemos 1 m³ de M en $10^{9}$ m³ de aire. O lo que es lo mismo, $10^{-9}$ m³ de M en 1 m³ de aire:
+
+La forma habitual de expresar la concentración de CO2 es en mg/m³ (miligramos por metro cúbico). Para convertir las ppm en mg/m³ tenemos que tener en cuenta que dicha conversión depende del tipo de gas, y de una presión y una temperatura que tomemos como referencia.
+
+Teniendo en cuenta la ecuación general de los gases ideales, para el CO2 (con peso molecular 44,01 g/mol), y tomando como referencia P = 1 atm y T = 298,16 K (25 ºC), tenemos (R = 0,08205746 atm·L/mol·K):
+
+<center>
+
+$\dfrac{10^{6}\cdot 44,01\hspace{0.1cm} g/mol\cdot 1\hspace{0.1cm}atm\cdot 10^{-6}}{0,08205746\cdot 298,16\hspace{0.1cm}K}=1,798\hspace{0.1cm}mg\hspace{0.1cm}\approx\hspace{0.1cm}1,8\hspace{0.1cm}mg$
 
 </center>
 
@@ -106,11 +120,19 @@ Luego:
 
 <center>
 
-$\boxed{1\hspace{0.1cm}ppm=1,8\hspace{0.1cm}\mu g/m^{3}\hspace{1cm}(CO_{2}\hspace{0.2cm}@\hspace{0.2cm}1\hspace{0.2cm}atm.\hspace{0.2cm} 25\hspace{0.2cm}ºC)}$
+$\boxed{1\hspace{0.1cm}ppm=1,8\hspace{0.1cm}mg/m^{3}\hspace{1cm}(CO_{2}\hspace{0.2cm}@\hspace{0.2cm}1\hspace{0.2cm}atm.\hspace{0.2cm} 25\hspace{0.2cm}ºC)}$
 
 </center>
 
 Que será la relación a usar para convertir entre unidades de CO2.
+
+También se puede expresar como:
+
+<center>
+
+$\boxed{1\hspace{0.1cm}ppb=1800\hspace{0.1cm}\mu g/m^{3}\hspace{1cm}(CO_{2}\hspace{0.2cm}@\hspace{0.2cm}1\hspace{0.2cm}atm.\hspace{0.2cm} 25\hspace{0.2cm}ºC)}$
+
+</center>
 
 ### Valores de referencia para el CO2
 
@@ -118,7 +140,7 @@ En la tabla siguientes damos los valores que vamos a considerar en nuestro caso.
 
 <center>
 
-| CO2 (ppm) | CO2 ($\mu g / m ^{3}$) | Ambiente | Mensaje | Color |
+| CO2 (ppm) | CO2 ($mg / m ^{3}$) | Ambiente | Mensaje | Color |
 |:-:|:-:|---|---|---|
 | de 0 a 500 | de 0 a 900 | Muy bueno | Aconsejado | Apagado |
 | de 501 a 1000 | de 901 a 1800 | Bueno | Bueno | Verde |

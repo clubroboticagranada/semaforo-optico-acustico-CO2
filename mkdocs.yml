@@ -24,13 +24,15 @@ copyright: Copyright &copy; 2020 - 2025 Club Robótica Granada
 nav:
   - Introducción: index.md 
   - Algunos conceptos sobre CO2 y VOC : sobre-co2/co2.md
+  - El sensor MH-Z19B: MHZ19B/Sensor-MH-Z19B.md
   - Versión modular: 
     - Introducción a la versión modular: modular/modular.md
     - Comparativa eCO2 versus CO2: modular/comparativa.md
     - Montaje y conexionado: modular/montaje.md
     - Pruebas individuales sensores: modular/pruebas.md
     - Programa completo: modular/firmware-modular.md
-  - Versión IoT con MEGA: mega/mega.md
+  - Versión IoT con MEGA: 
+    - Introducción: mega/mega.md
   - Versión Node MCU: mcu/mcu.md
   - 3D: 3D/3d.md
   - Miscelanea:
